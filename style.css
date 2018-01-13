@@ -1,0 +1,28 @@
+#wrap-main table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#wrap-main table tr:nth-child(odd) td {
+    background-color: #fff;
+}
+
+#wrap-main table tr:nth-child(even) td {
+    background-color: #f7f7f7;
+}
+
+#wrap-main table tr {
+    height: 50px;
+}
+
+.tr-name {
+    padding-left: 15px;
+}
+
+.td-name {
+    padding-left: 30px;
+}
+
+.td-checkbox {
+    padding-left: 15px;
+}
